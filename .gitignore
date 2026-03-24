@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Build and packaging
+build/
+dist/
+
+# Environments
+.venv/
+.venv-*/
+venv/
+
+# Local config and data
+.env
+.env.local
+warehouse.db
+*.db
+*.sqlite
+*.sqlite3
+
+# macOS
+.DS_Store
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
